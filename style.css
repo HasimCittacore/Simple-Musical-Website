@@ -1,0 +1,74 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.container
+{
+    height:100vh;
+    width:100%;
+    background-image: url("folders/pngtree-music-training-winter-holiday-romantic-piano-poster-banner-image_187447.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:right;
+    position: relative;
+}
+
+.navbar
+{
+    width:80%;
+    margin:auto;
+    padding:15px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    width:140px;
+    cursor:pointer;
+}
+
+
+.content
+{
+    width:100%;
+    position:absolute;
+    top:25%;
+}
+
+.left-content
+{
+    
+    margin-left: 80px;
+    margin-top: 25px;
+    
+}
+.left-content h1{
+    font-size: 50px;
+    float: left;
+    line-height: 110px;
+    color:#fff
+}
+.right-content
+{
+    float: right;
+    margin-right: 80px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    
+}
+.right-content p{
+    font-size: 18px;
+    color: #5f5f5f;
+    font-weight: 400;
+    margin-right: 15px;
+    
+}
+
+#icon
+{
+    width: 80px;
+    cursor: pointer;
+}
